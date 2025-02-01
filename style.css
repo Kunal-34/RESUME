@@ -1,0 +1,79 @@
+body{
+    background-color:aqua;
+    border: 2px solid black;
+}
+.all{
+    margin: 5px;
+}
+img{
+    width:120px;
+    float:right;
+    border-radius: 10px;
+    border : 2px solid black;
+    position:relative;
+    top: -30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+.Carrier{
+    background-color: darkkhaki;
+    border-radius: 5px ;
+    border-top: 2px;
+    border-bottom: 2px;
+    margin: 5px;
+}
+.EDUCATION,.Skills,.Details,.Decl,.cl, .work,.sk{
+    background-color: darkkhaki;
+    border-radius: 5px ;
+    border-top: 2px;
+    border-bottom: 2px;
+    margin: 5px;
+    margin-right: 5px;
+
+}
+.dee{
+    background-color: aquamarine;
+    border-radius:5px;
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px;
+}
+th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color:blue;
+    color: yellow;
+    margin: 5px;
+}
+td{border: 1px solid black;
+padding: 8px;
+text-align: left;
+margin: 5px;
+}
+.som,a{
+    background-color: blue;
+    color: yellow;
+    margin: 5px;
+}
+ul.custom{
+    list-style: none;
+    padding: 0;
+}
+ul.custom li{
+    position: relative;
+    padding-left: 25px;
+    margin: 5px;
+}
+ul.custom li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 20px;
+    height: 10px;
+    background-color: darkorchid;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
